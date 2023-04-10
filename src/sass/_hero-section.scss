@@ -1,0 +1,32 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .hero-content{
+        font-size: 1.5rem;
+        line-height: 4rem;
+
+        .active{
+            color: #df2020;
+        }
+        @include mobile{
+            font-size: 10px;
+            line-height: 2rem;
+        }
+
+        @include tablet{
+            font-size: 1rem;
+        }
+    }
+    .hero-img{
+        width: 40rem;
+        @include tablet{
+            width: 20rem;
+        }
+    }
+
+    @include mobile{
+        display: inline;
+        align-items: center;
+    }
+}

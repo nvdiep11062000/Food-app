@@ -1,0 +1,67 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 13px;
+}
+
+body{
+    font-family: "Istok Web" , sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "RocknRoll One",sans-serif !important;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1620px;
+    padding: 0 10%;
+    margin: auto;
+}
+
+.main{
+    margin-top: 100px;
+    min-height: 100vh;
+}
+
+// @each $val in $number {
+//     .grid-col-#{$val} {
+//         grid-template-columns: repeat($val , 1fr);
+//     }
+// }
+
+// @each $val in $number {
+//     .grid-col-md-#{$val} {
+//         @include tablet{
+//             grid-template-columns: repeat($val , 1fr);
+//         }
+//     }
+// }
+
+// @each $val in $number {
+//     .grid-col-sm-#{$val} {
+//         @include mobile{
+//             grid-template-columns: repeat($val , 1fr);
+//         }
+//     }
+// }
+
